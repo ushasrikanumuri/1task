@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Birthday wishes</title>
+</head>
+<body background="arifa.jpeg">
+	<u><center><h1>Birthday wishes form</h1></center></u>
+	<table align="centre"cellpadding="10">
+		<form action="login.html">
+		<tr>
+			<td><b>First Name:</b></td>
+			<td><b><input type="text" name="First-name"maxlength="30" required/></b></td>
+		</tr>
+		<tr><td><b>Last Name:</b></td>
+			<td><input type="text" name="Last-name"maxlength="30"></td>
+		</tr>
+		<tr>
+		<td><b>date of birth:</b></td>
+			<td><select name="Birthday-day"id="birthday-day" required/>
+				<option value="-1">day:</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option></select>
+				<select id="birthday-month"name="month">
+					<option value="-1">month:</option>
+					<option value="september">september</option>
+					<option value="october">october</option>
+					<option value="november">november</option>
+				</select>
+				<select name="birthdat-year"id="bithday-year">
+				<option value="-1">year:</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+           </select>
+       </td>
+           </tr>
+           <tr><td><b>gender:</b></td>
+               <td><input type="radio" name="gender" value="male">male
+               	<input type="radio" name="gender" value="female">female
+               </td>
+           </tr>
+           <tr>	
+           <td><button>submit</button></td>
+           	</tr>
+           	<tr><td >alredy a user?<a href="login.html">login</a></td></tr>
+           </form>
+	</table>
+
+
+</body>
+</html>
